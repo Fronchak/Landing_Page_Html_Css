@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" type="text/css" href="./assets/styles/styles.css">
+    <title>InDecor</title>
+</head>
+<body>
+    <header id="event-description">
+        <div id="disclaimer">
+            <h2>InDecor</h2>
+            <p class="about-event">Um evento para revolucionar a sua criatividade</p>
+            <p>Data do evento:</p>
+            <p class="event-date">Domingo, 28 de Maio, a partir das 14h</p>
+        </div>
+        <div id="subscription-form">
+            <p>Preencha o formulário para receber os detalhes do evento</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" placeholder="Digite o seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Digite o seu melhor email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone</label>
+                    <input type="text" id="phone" name="phone" placeholder="Número de Whatsapp">
+                </div>
+                <div class="form-group">
+                    <label for="interest">Principal interesse</label>
+                    <select id="interest" name="interest">
+                        <option value="0" disabled selected>Selecione</option>
+                        <option value="1">Apartamentos</option>
+                        <option value="2">Casas</option>
+                        <option value="3">Jardins</option>
+                        <option value="4">Outro</option>
+                    </select>
+                </div>
+                <input type="submit" class="btn" value="Quero me inscrever">
+            </form>
+        </div>
+    </header>
+</body>
+</html>
